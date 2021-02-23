@@ -130,6 +130,7 @@ input, select {
 }
 .big-bg{
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .main-title{
   display: inline-block;
@@ -164,11 +165,11 @@ input, select {
 /*about*/
 #about{
   height: 800px;
-  position: relative;
 }
 .about-top{
   height: 600px;
   background: #000;
+  position: relative;
 }
 .about-bottom{
   height: 200px;
@@ -179,20 +180,26 @@ input, select {
   color: #fff;
   margin-left: 200px;
   padding-top: 180px;
-  z-index: 20;
 }
 .about-title{
   margin-bottom: 30px;
-  font-size: 30px;
+  font-size: 25px;
 }
 .about-sentence{
+  width: 960px;
+  height: 75px;
   margin-bottom: 30px;
+  position: absolute;
+  z-index: 20;
 }
 .button{
   color: #000;
   background-color: #fff;
   padding: 10px;
+  margin-top: 20px;
   text-decoration: none;
+  position: absolute;
+  top: 300px;
 }
 .about-img{
   background-image: url(../img/mission-img.jpg);
@@ -208,4 +215,197 @@ input, select {
 #service{
   height: 1800px;
   background: #ddd;
+}
+.service{
+  font-size: 25px;
+  text-align: center;
+}
+.service-top{
+  height: 640px;
+  margin-top: 10px;
+  margin-bottom: 280px;
+  position: relative;
+}
+.top-contents{
+  background-color: #fff;
+  width: 765px;
+  height: 360px;
+  margin-top: 140px;
+  position: absolute;
+  right: 600px;
+  z-index: 20;
+}
+.service-img{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  z-index: 10;
+}
+.top-contents-second{
+  width: 580px;
+  height: 180px;
+  margin-top: 90px;
+  margin-left: 92.5px;
+}
+.service-title{
+  margin-bottom: 20px;
+}
+.service-subtitle{
+  margin-bottom: 20px;
+}
+.service-sentence{
+  margin-bottom: 15px;
+}
+.button2{
+  color: #000;
+  background-color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid #000;
+  margin-left: 462px;
+}
+
+.service-bottom{
+  height: 540px;
+  position: relative;
+}
+.service-img2{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  z-index: 10;
+}
+.bottom-contents{
+  background-color: #fff;
+  width: 765px;
+  height: 360px;
+  margin-top: 140px;
+  position: absolute;
+  left: 600px;
+  z-index: 20;
+}
+/*news*/
+#news{
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.company{
+  width: 795px;
+  height: 300px;
+  position: relative;
+}
+.recruit{
+  width: 795px;
+  height: 300px;
+  position: relative;
+}
+.news-img{
+  width: 795px;
+  height: 300px;
+  position: absolute;
+  z-index: 10;
+}
+.company-contents{
+  width: 280px;
+  height: 80px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  z-index: 20;
+}
+.company-title{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 17px;
+  margin-bottom: 5px;
+}
+.company-sentence{
+  text-align: center;
+}
+
+/*question*/
+#question{
+  height: 550px;
+  position: relative;
+}
+.question-contents{
+  width: 1440px;
+  height: 160px;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  display: flex;
+}
+.question-title{
+  font-size: 25px;
+  color: #fff;
+  width: 100px;
+  margin-top: 70px;
+  margin-left: 20px;
+  margin-right: 550px;
+}
+.question-sentence{
+  color: #fff;
+  width: 100px;
+  margin-top: 70px;
+}
+
+/*contact*/
+#contact{
+  height: 700px;
+  background-image: url(../img/contact-bg.jpg);
+  position: relative;
+}
+.contact-contents{
+  color: #fff;
+  width: 1280px;
+  height: 330px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.contact-title{
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.contact-subtitle{
+  margin-bottom: 40px;
+}
+.contact-sentence{
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.contact-message{
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+.contact-button{
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #fff;
+  text-decoration: none;
+}
+
+/*footer*/
+.footer{
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 5px;
 }
